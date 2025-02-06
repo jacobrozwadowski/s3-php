@@ -1,0 +1,12 @@
+{
+    "name": "xype/s3-php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Aws\\AwsSdkPhp\\": "src/"
+        }
+    },
+    "require": {
+        "aws/aws-sdk-php": "^3.337"
+    }
+}
